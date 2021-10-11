@@ -8,9 +8,47 @@
 #welcome-section {
   height: 100vh;
   width: 100vw;
+  justify-content: center; 
+  align-items: center;
+  display: flex;
+  color: rgba(250, 250, 250, 250);
+  background-color: rgba(50, 50, 50, 50);
 }
 
 #navbar {
   position: fixed;
   top: 0px;
 }
+
+#projects {
+  background-color: rgba(96, 120, 228, 0.808);
+  
+  
+}
+
+img {
+  float: left;
+  width:  100%;
+  height: 300px;
+  object-fit: cover;
+  background-color: rgba(96, 120, 228, 0.808);
+  margin: 5% 15% ;
+}
+
+.project-tile {
+  width: 48%;
+  height: 48%;
+  float: left;
+  padding: 1%;
+  background-color: rgba(96, 120, 228, 0.808)
+}
+
+#contact {
+  width: 100%;
+  justify-content: center;
+  float: left;
+  padding: 10%;
+  background-color: rgba(96, 228, 140, 0.808)
+  
+}
+
